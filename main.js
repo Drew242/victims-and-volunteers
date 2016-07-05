@@ -20,6 +20,7 @@ for (i = 0; i < parseInt(victimsInput); i++) {
   volAddresses.push(prompt("Volunteers's Address?"));
 }
 
-function vicVol() {
-  
-}
+var vics = "Victims " + vicNames.length + ": " + vicNames.join(', ');
+var vols = "Volunteers " + volNames.length + ": " + volNames.join(', ');
+
+alert(vics + "\n" + vols);
